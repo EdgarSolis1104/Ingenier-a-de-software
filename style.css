@@ -22,3 +22,29 @@ img:hover{
     transform: scale(1.1);
     
 }
+p{
+    text-align: center;
+    background: teal;
+    width:50%;
+    margin: auto;
+    fond: size 22px;
+    padding: 20px;
+    border-radius:8px
+
+}
+h3{
+    width:80%;
+    margin: auto;
+    background: #F0F0F0;
+
+    
+
+}
+ul,ol{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+ol{
+    background: #918f8f;
+}
