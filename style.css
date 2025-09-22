@@ -93,6 +93,7 @@ a{
 #formContainer form{
     width: 80%;
     margin: auto;
+    text-align: center; 
 }
 #formContainer label{
     display: block;
@@ -113,4 +114,28 @@ a{
 }
 #formContainer textarea{
     height: 100px;
+    
 }
+  /* ===== Estilo para el botón de enviar ===== */
+#formContainer button {
+  display: inline-block;
+  background-color: #4CAF50;      /* color de fondo */
+  color: #fff;                    /* texto blanco */
+  padding: 12px 30px;             /* espacio interno */
+  margin-top: 15px;               /* separación superior */
+  border: none;                   /* sin borde */
+  border-radius: 8px;             /* esquinas redondeadas */
+  font-size: 20px;                /* tamaño de fuente */
+  font-weight: bold;              /* texto en negritas */
+  cursor: pointer;                /* mano al pasar */
+  transition: background 0.3s, transform 0.2s;
+}
+
+#formContainer button:hover {
+  background-color: #10945d;      /* tono más oscuro al pasar el mouse */
+  transform: translateY(-2px);    /* efecto de “salto” */
+}
+
+#formContainer button:active {
+  transform: scale(0.96);  
+
