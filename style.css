@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+      font-family: "Oswald", sans-serif;
+      
+}
+h1,h2,h3{
+   text-align: center;
+}
+
+img{
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+
+}
+img:hover{
+    transform: scale(1.1);
+    
+}
+p{
+    text-align: center;
+    background: teal;
+    width:70%;
+    margin: auto;
+    fond: size 22px;
+    padding: 20px;
+    border-radius:15px;
+    color:whitesmoke;
+}
+
+    p:hover{
+        background: coral;
+    }
+
+
+h3{
+    width:70%;
+    margin: auto;
+    background: lightskyblue;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+
+}
+
+ul,ol{
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    
+}
+
+ol{
+    background: #918f8f;
+    border-radius: 15px;
+    margin-top: 30px;
+
+}
+
+a{
+    background: lightcoral;
+    color: black;
+    padding: 20px;
+    display: block;
+    margin: 40px auto;
+    border-radius: 15px;
+    width: fit-content;
+    text-decoration: none;
+    text-align: center;
+
+}
+#maps {
+    margin: 40px auto;
+    width: 100%;
+    height: 450px;
+}
+
+#maps iframe{
+    width: 100%;
+    height: 100%;
+}
+#formContainer{
+    width: 100%;
+    background: #F0F0F0;
+    padding: 50px;
+    margin: 40px;
+}
+#formContainer form{
+    width: 80%;
+    margin: auto;
+    text-align: center; 
+}
+#formContainer label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 24px;
+}
+#formContainer input,
+#formContainer textarea{
+    display: block;
+    border: 2px solid#fafafa;
+    border-radius: 8px;
+    height: 25px;
+    padding: 10px;
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+#formContainer textarea{
+    height: 100px;
+    
+}
+  
+#formContainer button {
+  display: inline-block;
+  background-color: #4CAF50;      /* color de fondo */
+  color: #fff;                    /* texto blanco */
+  padding: 12px 30px;             /* espacio interno */
+  margin-top: 15px;               /* separación superior */
+  border: none;                   /* sin borde */
+  border-radius: 8px;             /* esquinas redondeadas */
+  font-size: 20px;                /* tamaño de fuente */
+  font-weight: bold;              /* texto en negritas */
+  cursor: pointer;                /* mano al pasar */
+  transition: background 0.3s, transform 0.2s;
+}
+
+#formContainer button:hover {
+  background-color: #10945d;      /* tono más oscuro al pasar el mouse */
+  transform: translateY(-2px);    /* efecto de “salto” */
+}
+
+#formContainer button:active {
+  transform: scale(0.96);  
+
